@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+https://medium.com/flutter/test-flutter-apps-on-travis-3fd5142ecd8c
+
+https://flutter.dev/docs/reference/flutter-cli
+
+flutter emulators --launch Pixel_3a_API_30_x86
+flutter run ./lib/main.dart
+flutter test
