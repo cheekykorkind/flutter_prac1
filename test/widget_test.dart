@@ -9,10 +9,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:flutter_application_1/main.dart';
+import 'package:flutter_application_1/linkedList.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    var string = 'foo,bar,baz';
-    expect(string.split(','), equals(['foo', 'bar', 'baz']));
+    NodeList nodes = NodeList(Node('head'));
+    nodes.insertNode(Node('one'));
+    nodes.insertNode(Node('two'));
+    nodes.insertNode(Node('three'));
+
+    expect(nodes.last().data, equals('three'));
   });
 }
