@@ -22,3 +22,4 @@ https://flutter.dev/docs/reference/flutter-cli
 flutter emulators --launch Pixel_3a_API_30_x86
 flutter run ./lib/main.dart
 flutter test
+flutter build apk --release --target-platform=android-arm64
